@@ -1,0 +1,24 @@
+body {
+  background: url(../img/capa.png), url(../img/ruido.png), linear-gradient(50deg, #ff4169, #7c26f8);
+  background-attachment: fixed; }
+
+nav.navbar-transparente {
+  padding: 15px 0;
+  background: rgba(0, 0, 0, 0.6); }
+
+.navbar-light .navbar-nav .nav-link {
+  color: white; }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #9bf0e1; }
+
+.navbar-light .navbar-toggler {
+  color: white;
+  border-color: white; }
+
+.divisor {
+  width: 1px;
+  background: white;
+  margin: 12px 15px; }
+
+/*# sourceMappingURL=style.css.map */

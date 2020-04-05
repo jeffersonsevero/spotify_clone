@@ -1,0 +1,50 @@
+
+
+
+$degrade1-fundo: #ff4169;
+$degrade2-fundo: #7c26f8;
+
+$background-nav: rgba(0,0,0,0.6);
+
+$color-link: white;
+$link-hover: #9bf0e1;
+
+
+
+
+body{
+    background:url(../img/capa.png),
+    url(../img/ruido.png),
+    linear-gradient(50deg, $degrade1-fundo, $degrade2-fundo);
+    background-attachment: fixed;
+
+}
+
+
+// barra de navegacao
+
+nav.navbar-transparente{
+    padding: 15px 0;
+    background: $background-nav;
+
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: $color-link;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: $link-hover;
+}
+
+.navbar-light .navbar-toggler{
+    color: white;
+    border-color: white;
+}
+
+.divisor{
+    width: 1px;
+    background:white;
+    margin: 12px 15px;
+}
+
